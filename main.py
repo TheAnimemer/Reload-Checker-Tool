@@ -1,4 +1,4 @@
-"""Pokemon Team Finder
+"""Reload Checker TOol
 Type the opposing team's six Pokemon (comma-separated) and instantly see every
 team sheet in teams.txt whose roster is EXACTLY those six Pokemon.
 
@@ -134,7 +134,7 @@ def main():
     index, known, sources = load_teams(TEAMS_FILE)
     total = sum(sources.values())
     listing = ", ".join(f"{name} ({n})" for name, n in sources.items())
-    print(f"Pokemon Team Finder - {total} team sheets loaded.")
+    print(f"Reload Checker Tool - {total} team sheets loaded.")
     print(f"Sources: {listing}\n")
 
     while True:
