@@ -1,4 +1,6 @@
-# Pokemon Team Finder
+# Reload Checker Tool
+A tool that helps combine Smogon scouts (typically in a team tournament environment) to quickly 
+check if a given opponent is reloading a team revealed at some other point prior.
 
 Type the opposing team's six Pokemon, press Enter, see the matching team sheet(s)
 and who they came from.
@@ -25,8 +27,8 @@ Click More info, then Run anyway.
 
 ## Rules
 
-- Capitalization, spaces around commas, and order don't matter. You DO need to include spaces in the middle of names. E.g `Tapu lele` not
-  `TapuLele`
+- Capitalization, spaces around commas, and order don't matter. You DO need to include spaces in
+  the middle of names. E.g `Tapu lele` not `TapuLele`
 - You must enter exactly 6 Pokemon. Only teams with exactly those 6 are shown.
 - Each result shows its source (the name at the top of that section of `teams.txt`)
   and how many replays are linked.
